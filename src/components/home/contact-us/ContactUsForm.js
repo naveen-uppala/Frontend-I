@@ -38,7 +38,7 @@ const ContactUsForm = () => {
         else {
             console.log(values)
 
-            fetch("http://localhost:8080/home/customerDetails",{
+            fetch("http://localhost:8081/home/vamshi",{
                 method:"POST",
                 headers:{"Content-Type":"application/json"},
                 body:JSON.stringify(values)                
